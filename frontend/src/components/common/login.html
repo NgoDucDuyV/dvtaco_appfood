@@ -1,0 +1,58 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Form</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex items-center justify-center min-h-screen bg-gray-100">
+
+    <div class="bg-white shadow-lg rounded-md w-[350px] p-6 border-t-4 border-[#FFC107]">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+        Sign in 
+        <a href="#" class="text-[#FFC107] hover:underline font-medium">Create an Account</a>
+        </h2>
+
+        <!-- Username -->
+        <div class="mt-4">
+        <label for="username" class="block text-gray-700 text-sm font-medium mb-1">
+            Username or email <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="text" 
+            id="username" 
+            placeholder="Username" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Password -->
+        <div class="mt-4">
+        <label for="password" class="block text-gray-700 text-sm font-medium mb-1">
+            Password <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="password" 
+            id="password" 
+            placeholder="Password" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Login Button -->
+        <button 
+        class="mt-6 w-full bg-[#FFC107] hover:bg-yellow-500 text-black font-semibold py-2 rounded-md transition">
+        LOGIN
+        </button>
+
+        <!-- Forgot password -->
+        <div class="mt-4 text-center">
+        <a href="#" class="text-[#FFC107] hover:underline text-sm">
+            Lost your password?
+        </a>
+        </div>
+    </div>
+
+    </body>
+    </html>

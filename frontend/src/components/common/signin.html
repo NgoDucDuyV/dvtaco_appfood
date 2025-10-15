@@ -1,0 +1,96 @@
+    <!DOCTYPE html>
+    <html lang="en">
+    <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create an Account</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    </head>
+    <body class="flex items-center justify-center min-h-screen bg-gray-100">
+
+    <div class="bg-white shadow-lg rounded-md w-[380px] p-6 border-t-4 border-[#FFC107]">
+        <h2 class="text-2xl font-semibold text-gray-800 mb-2">
+        Create an Account 
+        <a href="#" class="text-[#FFC107] hover:underline font-medium">Sign in</a>
+        </h2>
+
+        <!-- Full Name -->
+        <div class="mt-4">
+        <label for="fullname" class="block text-gray-700 text-sm font-medium mb-1">
+            Full name <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="text" 
+            id="fullname" 
+            placeholder="Your full name" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Email -->
+        <div class="mt-4">
+        <label for="email" class="block text-gray-700 text-sm font-medium mb-1">
+            Email <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="email" 
+            id="email" 
+            placeholder="example@gmail.com" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Username -->
+        <div class="mt-4">
+        <label for="username" class="block text-gray-700 text-sm font-medium mb-1">
+            Username <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="text" 
+            id="username" 
+            placeholder="Choose a username" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Password -->
+        <div class="mt-4">
+        <label for="password" class="block text-gray-700 text-sm font-medium mb-1">
+            Password <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="password" 
+            id="password" 
+            placeholder="Password" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Confirm Password -->
+        <div class="mt-4">
+        <label for="confirm" class="block text-gray-700 text-sm font-medium mb-1">
+            Confirm Password <span class="text-red-500">*</span>
+        </label>
+        <input 
+            type="password" 
+            id="confirm" 
+            placeholder="Re-enter password" 
+            class="w-full border border-gray-300 rounded-md px-3 py-2 focus:outline-none focus:ring-2 focus:ring-[#FFC107]"
+        />
+        </div>
+
+        <!-- Sign Up Button -->
+        <button 
+        class="mt-6 w-full bg-[#FFC107] hover:bg-yellow-500 text-black font-semibold py-2 rounded-md transition">
+        CREATE ACCOUNT
+        </button>
+
+        <!-- Terms -->
+        <p class="text-sm text-gray-600 text-center mt-4">
+        By creating an account, you agree to our 
+        <a href="#" class="text-[#FFC107] hover:underline">Terms & Conditions</a>.
+        </p>
+    </div>
+
+    </body>
+    </html>

@@ -1,0 +1,46 @@
+{
+    "product":[
+        {
+            "id": 1,
+            "title": "Pepperoni Calzone",
+            "price": 34000,
+            "imageUrl": "Black_Coffee.png",
+            "category": "piza",
+            "quantity" : 2
+        },
+        {
+            "id": 2,
+            "title": "Blueberry Shake",
+            "price": 35000,
+            "imageUrl": "Blueberry_Shake.png",
+            "category": "nuoc",
+            "quantity" : 1
+        },
+        {
+            "id": 3,
+            "title": "Chocolate cake",
+            "price": 54000,
+            "imageUrl": "Chocolate_cake.png",
+            "category": "banh",
+            "quantity" : 6
+        },
+        {
+            "id": 4,
+            "title": "BBQ chicken breast",
+            "price": 254000,
+            "imageUrl": "BBQ_chicken_breast.png",
+            "category": "thit",
+            "quantity" : 1
+        },
+        {
+            "id": 5,
+            "title": "Apricot Chicken",
+            "price": 34000,
+            "imageUrl": "Apricot_Chicken.png",
+            "category": "piza",
+            "quantity" : 3
+        }
+    ],
+
+    "user":[]
+}
